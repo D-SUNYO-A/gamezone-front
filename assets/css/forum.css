@@ -1,0 +1,43 @@
+.blog {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+#new {
+  cursor: pointer;
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: fixed;
+  right: 16px;
+  bottom: 100px;
+  border-radius: 100px;
+  background: #0EA5E9;
+}
+
+/* Responsive with mobile first */
+
+/* Phone */
+@media (min-width: 375px) {
+  .blog {
+    gap: 0;
+  }
+}
+
+/* Tablet */
+@media (min-width: 744px) {
+  .blog {
+    gap: 32px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  #new {
+    display: none;
+  }
+}

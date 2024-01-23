@@ -1,0 +1,65 @@
+.input-group {
+  position: relative;
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #1f2937;
+
+  width: 100%;
+}
+
+.input-group::after {
+  opacity: 0;
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #e5e7eb;
+  border-bottom-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+.input-group.loading::after {
+  opacity: 1;
+}
+
+.input-group.loading svg:first-child {
+  opacity: 0;
+}
+
+.input-group svg {
+  width: 24px;
+  height: 24px;
+}
+
+.input-group svg:first-child {
+  margin-right: 8px;
+}
+
+.input-group svg:last-child {
+  display: none;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.input-group svg:last-child:hover {
+  background-color: #374151;
+}
+
+.input-group input {
+  color: #e5e7eb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  flex: 1; /* L'input prend tout l'espace disponible */
+  background: transparent;
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: #111827;
+  position: relative;
+}
+
+#app {
+  margin: 0 16px;
+  padding: 40px 0 120px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.content,
+app-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #e5e7eb;
+}
+
+app-postcard, app-gameplay {
+  width: 100%;
+}
+
+app-forum {
+  position: relative;
+}
+
+/* Spin Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive with mobile first */
+
+/* Phone */
+@media (min-width: 375px) {
+}
+
+/* Tablet */
+@media (min-width: 744px) {
+  #app {
+    margin: 0 80px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  #app {
+    margin: 0 160px;
+  }
+  
+  .page {
+    gap: 40px;
+  }
+
+  #app {
+    padding: 40px 0;
+  }
+}

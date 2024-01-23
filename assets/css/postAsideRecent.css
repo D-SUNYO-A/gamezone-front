@@ -1,0 +1,100 @@
+.card {
+  display: flex;
+  width: 343px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card-header {
+  display: flex;
+  padding: 24px 24px 16px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  background: #1f2937;
+}
+
+.card-header h2 {
+  color: #f9fafb;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.card-body {
+  display: flex;
+  padding: 0px 24px 16px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  background: #1f2937;
+}
+
+.card-body .details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.card-body .details .info {
+  display: flex;
+  padding: 8px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  border-bottom: 1px solid #374151;
+}
+
+.card-body .details .info:last-child {
+  border-bottom: none;
+}
+
+.card-body .details .info p {
+  flex: 1 0 0;
+  color: #e5e7eb;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.card-body .details .info p:last-child {
+  text-align: end;
+}
+
+.card-footer {
+  display: flex;
+  padding: 0px 24px 24px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  background: #1f2937;
+}
+
+.card-footer .new {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #0ea5e9;
+}
+
+.card-footer button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}

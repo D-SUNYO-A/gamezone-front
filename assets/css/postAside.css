@@ -1,0 +1,22 @@
+/* Responsive with mobile first */
+
+/* Phone */
+@media (min-width: 375px) {
+    .post-aside {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 744px) {
+    .post-aside {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+    
+}
