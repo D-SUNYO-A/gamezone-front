@@ -1,0 +1,114 @@
+.hero {
+  display: flex;
+  padding: 10vh 24px 0px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.hero img {
+  width: 200px;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.hero h1 {
+  color: var(--Gray-300, #d1d5db);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero h1 span {
+  color: #F3F4F6;
+  font-weight: 700;
+}
+
+.hero h1 span b {
+  color: #0ea5e9;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.links .gamebtn {
+  display: flex;
+  padding: 12px 14px 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 16px;
+  background: #0ea5e9;
+  color: #f9fafb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.links .forumbtn {
+  display: flex;
+  padding: 12px 14px 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #f9fafb;
+  color: #374151;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Responsive with mobile first */
+
+/* Phone */
+@media (min-width: 375px) {
+  
+}
+
+/* Tablet */
+@media (min-width: 744px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  .hero img {
+    width: 20%;
+  }
+  .hero {
+    padding: 10vh 160px 0px 160px;
+  }
+}

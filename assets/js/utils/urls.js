@@ -1,6 +1,5 @@
 // Base URL
-export const baseUrl = "https://sunyo-gamezone-api.cyclic.app" || "http://localhost:3000";
-// export const baseUrl = "http://localhost:3000";
+export const baseUrl = "http://localhost:3000";
 
 // All posts URL 
 export const postsUrl = `${baseUrl}/api/posts`; 

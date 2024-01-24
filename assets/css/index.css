@@ -17,6 +17,7 @@ button {
 }
 
 body {
+  min-height: 100vh;
   background-color: #111827;
   position: relative;
 }
@@ -43,6 +44,12 @@ app-list {
 
 h1 {
   color: #e5e7eb;
+}
+
+.speciale {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 app-postcard, app-gameplay {
