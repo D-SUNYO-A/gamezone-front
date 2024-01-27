@@ -14,8 +14,11 @@ export default class HomeComponent extends HTMLElement {
                 <app-navbar></app-navbar>
                 <div class="hero">
                     <img src="./assets/img/mariogz.png" alt="mariogz">
-                    <h1>
+                    <h1 class="hero-text-lg">
                         Dive headfirst into the heart-pounding action, thrilling adventures, and pure excitement offered by the hottest games in the industry. <span><b>G</b>ame<b>Z</b>one</span> is not just a platform; it's your portal to an electrifying gaming experience !
+                    </h1>
+                    <h1 class="hero-text-sm">
+                        Welcome to <span><b>G</b>ame<b>Z</b>one</span> : Where Gaming Thrills Begin ! 
                     </h1>
                     <div class="links">
                         <a href="#games" class="gamebtn">

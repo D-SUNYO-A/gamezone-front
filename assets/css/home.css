@@ -7,6 +7,14 @@
   align-self: stretch;
 }
 
+.hero-text-lg {
+  display: none;
+}
+
+.hero-text-sm {
+  display: block;
+}
+
 .hero img {
   width: 200px;
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -16,7 +24,6 @@
   color: var(--Gray-300, #d1d5db);
   text-align: center;
   font-family: Poppins;
-  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -99,7 +106,7 @@
 /* Tablet */
 @media (min-width: 744px) {
   .hero h1 {
-    font-size: 32px;
+    font-size: 40px;
   }
 }
 
@@ -110,5 +117,15 @@
   }
   .hero {
     padding: 10vh 160px 0px 160px;
+  }
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero-text-lg {
+    display: block;
+  }
+  
+  .hero-text-sm {
+    display: none;
   }
 }
