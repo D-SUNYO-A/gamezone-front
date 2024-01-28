@@ -1,6 +1,7 @@
 import { LoaderComponent } from "../components/Loader.js";
 import { ActionsComponent } from "../components/Actions.js";
 import { GameListComponent } from "../components/GameList.js";
+import TopbarComponent from "../components/Topbar.js";
 
 export default class GamesComponent extends HTMLElement {
     constructor() {
@@ -16,6 +17,7 @@ export default class GamesComponent extends HTMLElement {
             
             <div id="games" class="page">
                 <app-navbar></app-navbar>
+                <app-topbar></app-topbar>
 
                 <div class="content">
                     <app-actions></app-actions>

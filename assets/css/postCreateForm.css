@@ -61,9 +61,9 @@ form {
 }
 
 .media {
-  /* display: flex; */
+  display: flex;
   gap: 16px;
-  display: none;
+  /* display: none; */
 }
 
 .file-form-group {

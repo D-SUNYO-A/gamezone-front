@@ -1,0 +1,36 @@
+/* Responsive with mobile first */
+
+/* Phone */
+@media (min-width: 375px) {
+    app-actions {
+        display: none;
+    }
+
+    app-topbar {
+        display: flex;
+    }
+
+    #games {
+        padding-top: 48px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 744px) {
+    app-actions {
+        display: block;
+    }
+
+    app-topbar {
+        display: none;
+    }
+
+    #games {
+        padding-top: 0px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+    
+}

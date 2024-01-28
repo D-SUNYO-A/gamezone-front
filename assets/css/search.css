@@ -32,11 +32,6 @@
   opacity: 0;
 }
 
-.input-group svg {
-  width: 24px;
-  height: 24px;
-}
-
 .input-group svg:first-child {
   margin-right: 8px;
 }
@@ -62,4 +57,21 @@
   line-height: 24px;
   flex: 1; /* L'input prend tout l'espace disponible */
   background: transparent;
+}
+
+/* Responsive with mobile first */
+
+/* Phone */
+@media (min-width: 375px) {
+  
+}
+
+/* Tablet */
+@media (min-width: 744px) {
+  
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  
 }
