@@ -28,15 +28,19 @@
   opacity: 1;
 }
 
-.input-group.loading svg:first-child {
+.input-group img {
+  width: 24px;
+}
+
+.input-group.loading img:first-child {
   opacity: 0;
 }
 
-.input-group svg:first-child {
+.input-group img:first-child {
   margin-right: 8px;
 }
 
-.input-group svg:last-child {
+.input-group img:last-child {
   display: none;
   background-color: transparent;
   border-radius: 4px;
@@ -44,7 +48,7 @@
   position: relative;
 }
 
-.input-group svg:last-child:hover {
+.input-group img:last-child:hover {
   background-color: #374151;
 }
 
