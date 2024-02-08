@@ -5,12 +5,15 @@
   left: 0;
   display: flex;
   align-items: flex-start;
-  gap: 16px;
   width: 100%;
   background: #1f2937;
   padding: 8px 16px;
 }
 
 app-search {
-  width: 100%;
+  width: 90%;
+}
+
+app-filter {
+  width: 10%;
 }
